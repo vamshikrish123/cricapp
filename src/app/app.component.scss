@@ -1,0 +1,70 @@
+@import '~scss/vars'; 
+
+
+.flex-box {
+    display: $box;
+ }
+ .flex-box__image {
+    background-color: $bg-color;
+    margin: $m1;
+    padding: $m1;
+    font-size: $v1;
+  }
+  .flex-box__image p{
+      font-size: $pad;
+  }
+  div p{
+      text-align: $txt-ali;
+  }  
+  p{
+      font-family: $font-fmly;;
+  }
+  .flex-container {
+      display: $box;
+  }
+  .flex-container__box-1{
+      flex: $f2;
+      height: $h-w;
+      background-color: $bg-color;
+      margin: $mar;
+      padding: $pad;
+      font-size: $pad;
+  }
+  .flex-container__box-2{
+      flex: $f1;
+      width: $h-w;
+      background-color: $bg-color;
+      margin: $mar;
+      padding: $pad;
+      font-size: $pad;
+  }
+  .flex-box__image{
+      margin: $m2;
+  }
+  a{
+      margin: $m1;
+  }
+  button{
+     float: $d1;
+     margin: $m1;
+  }
+  .logos{
+      border-radius: $br;
+      width: $per;
+  }
+ a{
+    font-family: $font-fmly;
+    color: $font-color;
+    font-size: $v2;
+ }
+ .pics{
+border-radius: $br1;
+width: $v4;
+font-size: $v1;
+ }
+ .msg{
+font-size: $v3;
+//padding: 0px;
+margin: $m1;
+float: $d2;
+ }
